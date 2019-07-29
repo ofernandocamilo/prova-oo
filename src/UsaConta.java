@@ -32,8 +32,8 @@ public class UsaConta {
 		System.out.println("Cliente 1: ");
 		System.out.println("Titular: " + c1.getTitular().getNome());
 		System.out.println("CPF: " + c1.getCPF());
-		System.out.println("Agencia: " + c1.getAgencia());
-		System.out.println("Numero: " + c1.getNumero());
+		System.out.println("Agência: " + c1.getAgencia());
+		System.out.println("Número: " + c1.getNumero());
 		System.out.println("Saldo:" + c1.getSaldo());
 		System.out.println("Limite: " + c1.getLimite());
 		System.out.println("Tipo: " + c1.getTipo());
@@ -50,7 +50,7 @@ public class UsaConta {
 
 		
 		System.out.println("\n");	
-		System.out.println("*****DEPOSITO/SAQUE:*****");
+		System.out.println("*****DEPÓSITO/SAQUE:*****");
 		System.out.print("Digite um valor para o dep�sito na conta do Cliente 1: ");
 		c1.depositar();
 		
