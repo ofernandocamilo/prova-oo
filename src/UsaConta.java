@@ -12,6 +12,7 @@ public class UsaConta {
 		c1.setTitular(c1);
 		c2.setTitular(c2);
 			
+		System.out.println("Testando push para o GitHub");
 		System.out.println("*****CADASTRO DE CLIENTES*****");
 		System.out.print("Digite o nome do Cliente 1: ");
 		c1.ler_nome();
