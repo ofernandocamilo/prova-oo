@@ -42,15 +42,15 @@ public class UsaConta {
 		System.out.println("Cliente 2: ");
 		System.out.println("Titular: " + c2.getTitular().getNome());
 		System.out.println("CPF: " + c1.getCPF());
-		System.out.println("Ag�ncia: " + c2.getAgencia());
-		System.out.println("N�mero: " + c2.getNumero());
+		System.out.println("Agencia: " + c2.getAgencia());
+		System.out.println("Numero: " + c2.getNumero());
 		System.out.println("Saldo:" + c2.getSaldo());
 		System.out.println("Limite: " + c2.getLimite());
 		System.out.println("Tipo: " + c2.getTipo());
 
 		
 		System.out.println("\n");	
-		System.out.println("*****DEP�SITO/SAQUE:*****");
+		System.out.println("*****DEPOSITO/SAQUE:*****");
 		System.out.print("Digite um valor para o dep�sito na conta do Cliente 1: ");
 		c1.depositar();
 		
@@ -61,7 +61,7 @@ public class UsaConta {
 		System.out.println("Novo Saldo atualizado: " + c1.getSaldo() + "\n");
 		
 		System.out.println("\n");	
-		System.out.println("*****TRANSFER�NCIAS:*****");
+		System.out.println("*****TRANSFERENCIAS:*****");
 		
 		System.out.print("Digite um valor para transferir da Conta do Cliente 1 para o Cliente 2: ");
 		transferenciaBancaria(c1,c2);
@@ -77,7 +77,7 @@ public class UsaConta {
 		valor = input.nextDouble();
 		
 		if(c1.getSaldo() + c1.getLimite() < valor) {
-			System.out.println("Saque n�o efetuado! Saldo insuficiente!");
+			System.out.println("Saque não efetuado! Saldo insuficiente!");
 		}
 		else {
 			c1.setSaldo(c1.getSaldo() - valor);
