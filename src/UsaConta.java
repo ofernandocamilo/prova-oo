@@ -32,8 +32,8 @@ public class UsaConta {
 		System.out.println("Cliente 1: ");
 		System.out.println("Titular: " + c1.getTitular().getNome());
 		System.out.println("CPF: " + c1.getCPF());
-		System.out.println("Ag�ncia: " + c1.getAgencia());
-		System.out.println("N�mero: " + c1.getNumero());
+		System.out.println("Agencia: " + c1.getAgencia());
+		System.out.println("Numero: " + c1.getNumero());
 		System.out.println("Saldo:" + c1.getSaldo());
 		System.out.println("Limite: " + c1.getLimite());
 		System.out.println("Tipo: " + c1.getTipo());
